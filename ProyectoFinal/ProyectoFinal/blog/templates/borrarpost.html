@@ -1,0 +1,13 @@
+
+
+<form method="POST">
+    {% csrf_token %}
+ 
+ 
+    <p>¿Estas seguro que queres borrarlo? "{{ object }}"?</p>
+     
+     
+     
+     
+        <input type="submit" value="Confirm">
+    </form>

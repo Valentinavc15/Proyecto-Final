@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock title %}</title>
+    
+  </head>
+
+  <body>
+      <nav> 
+        
+        <button>
+        <li><a href=" sobrenosotros.html">Sobre nosotros</a></li> 
+      </button>  
+        <br>
+        <br>
+        <h1>Mi proyecto final</h1>
+        
+        <button>
+        <li><a href="agregarpost.html">Agregar Post</a></li>
+       </button>
+         
+        <button>
+          <li><a href="borrarpost.html">Borrar Post</a></li>
+        </button>
+      
+      </nav>
+      
+     
+     
+    {% block main %}{% endblock main %}
+  </body>
+</html>
